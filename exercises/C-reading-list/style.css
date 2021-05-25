@@ -152,13 +152,20 @@ body {
   background: #87ca8a;
 }
 
+ul {
+display: flex; 
+flex-direction: row;
+}
+
 li {
+  margin: 10px; 
+  list-style-type: none;
   height: 300px;
   width: 300px;
 }
 
 img {
-  padding: 30px 20px;
+  padding: 20px 20px 20px 20px;
   height: 200px;
   width: 200px;
 }
