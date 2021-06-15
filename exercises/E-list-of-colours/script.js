@@ -15,7 +15,7 @@ function listOfColours(colours) {
     paragraphEl.innerText = color;
     optionEl.addEventListener("click", changeColour)
     function changeColour(){
-      paragraphEl.style.color = color;
+      paragraphEl.style.backgroundColor = color;
     }
   })
 }

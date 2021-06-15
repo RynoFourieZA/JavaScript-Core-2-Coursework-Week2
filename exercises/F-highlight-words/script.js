@@ -6,18 +6,19 @@ content.appendChild(paragraphEl)
 let selectEl = document.createElement("select");
 paragraphEl.appendChild(selectEl)
 
-
 paragraph.split(" ").forEach(word => {
   console.log(word);
   let optionEl = document.createElement("option");
   selectEl.appendChild(optionEl)
   let spanEL = document.createElement("span");
-  spanEL.innerText = `${word} ${paragraphEl}`;
-  optionEl.appendChild(spanEL)
-  spanEL.addEventListener("click", valueProperty)
-spanEL.style.backgroundColor = colours;
-  function valueProperty() {
-
+  spanEL.innerText = `${word} `;
+  paragraphEl.appendChild(spanEL);
+  
+    spanEL.addEventListener("click", valueProperty)
+  spanEL.style.backgroundColor = colours;
+    function valueProperty() {
+    console.log("you clicked me!");
+    selectEl.
   }
 
 

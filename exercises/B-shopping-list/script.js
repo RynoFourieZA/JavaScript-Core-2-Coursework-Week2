@@ -1,5 +1,4 @@
 function shoppingList(arrayOfPeople) {
-  // Write your code here...
   let content = document.querySelector("#content");
   let unorderedList = document.createElement("ul");
   content.appendChild(unorderedList);
